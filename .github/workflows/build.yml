@@ -34,7 +34,7 @@ jobs:
         run: make configure
 
       - name: Build Repo
-        run: make check
+        run: make rom
 
       - name: Checkout xMAP
         if: ${{ github.event_name == 'push' }}

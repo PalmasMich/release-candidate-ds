@@ -1,0 +1,21 @@
+name: release-candidate-policy
+
+on:
+  push:
+    branches:
+      - feature/cagliari-vertical-slice
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  repository-policy:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Run repository policy tests
+        run: python3 -m unittest discover -s tests/release_candidate -p 'test_*.py' -v

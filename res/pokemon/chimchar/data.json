@@ -48,79 +48,17 @@
             [ 41, "MOVE_FLAMETHROWER" ]
         ],
         "by_tm": [
-            "TM01",
-            "TM06",
-            "TM08",
-            "TM10",
-            "TM11",
-            "TM12",
-            "TM17",
-            "TM21",
-            "TM23",
-            "TM27",
-            "TM28",
-            "TM31",
-            "TM32",
-            "TM35",
-            "TM38",
-            "TM40",
-            "TM41",
-            "TM42",
-            "TM43",
-            "TM44",
-            "TM45",
-            "TM50",
-            "TM56",
-            "TM58",
-            "TM61",
-            "TM65",
-            "TM75",
-            "TM76",
-            "TM78",
-            "TM82",
-            "TM83",
-            "TM86",
-            "TM87",
-            "TM89",
-            "TM90",
-            "HM01",
-            "HM04",
-            "HM06",
-            "HM08"
+            "TM01", "TM06", "TM08", "TM10", "TM11", "TM12", "TM17", "TM21", "TM23", "TM27", "TM28", "TM31", "TM32", "TM35", "TM38", "TM40", "TM41", "TM42", "TM43", "TM44", "TM45", "TM50", "TM56", "TM58", "TM61", "TM65", "TM75", "TM76", "TM78", "TM82", "TM83", "TM86", "TM87", "TM89", "TM90", "HM01", "HM04", "HM06", "HM08"
         ],
         "by_tutor": [
-            "MOVE_MUD_SLAP",
-            "MOVE_ROLLOUT",
-            "MOVE_THUNDER_PUNCH",
-            "MOVE_FIRE_PUNCH",
-            "MOVE_SNORE",
-            "MOVE_HELPING_HAND",
-            "MOVE_ENDEAVOR",
-            "MOVE_VACUUM_WAVE",
-            "MOVE_GUNK_SHOT",
-            "MOVE_HEAT_WAVE",
-            "MOVE_SWIFT",
-            "MOVE_UPROAR"
+            "MOVE_MUD_SLAP", "MOVE_ROLLOUT", "MOVE_THUNDER_PUNCH", "MOVE_FIRE_PUNCH", "MOVE_SNORE", "MOVE_HELPING_HAND", "MOVE_ENDEAVOR", "MOVE_VACUUM_WAVE", "MOVE_GUNK_SHOT", "MOVE_HEAT_WAVE", "MOVE_SWIFT", "MOVE_UPROAR"
         ],
         "egg_moves": [
-            "MOVE_FIRE_PUNCH",
-            "MOVE_THUNDER_PUNCH",
-            "MOVE_DOUBLE_KICK",
-            "MOVE_ENCORE",
-            "MOVE_HEAT_WAVE",
-            "MOVE_FOCUS_ENERGY",
-            "MOVE_HELPING_HAND",
-            "MOVE_FAKE_OUT",
-            "MOVE_BLAZE_KICK",
-            "MOVE_COUNTER"
+            "MOVE_FIRE_PUNCH", "MOVE_THUNDER_PUNCH", "MOVE_DOUBLE_KICK", "MOVE_ENCORE", "MOVE_HEAT_WAVE", "MOVE_FOCUS_ENERGY", "MOVE_HELPING_HAND", "MOVE_FAKE_OUT", "MOVE_BLAZE_KICK", "MOVE_COUNTER"
         ]
     },
     "evolutions": [
-        [
-            "EVO_LEVEL",
-            14,
-            "SPECIES_MONFERNO"
-        ]
+        [ "EVO_LEVEL", 14, "SPECIES_MONFERNO" ]
     ],
     "offspring": "SPECIES_CHIMCHAR",
     "footprint": {
@@ -141,12 +79,12 @@
         "trainer_pos_m": 9,
         "pokemon_pos_m": 25,
         "en": {
-            "name": "CHIMCHAR",
-            "category": "Chimp Pokémon",
+            "name": "SARURAI",
+            "category": "Apprendista Pokémon",
             "entry_text": [
-                "It is very agile. Before going to\n",
-                "sleep, it extinguishes the flame\n",
-                "on its tail to prevent fires."
+                "Si allena con disciplina fin da\n",
+                "piccolo. Quando perde la calma, la\n",
+                "fiamma sulla coda diventa più viva."
             ]
         },
         "fr": {

@@ -1,5 +1,5 @@
 {
-    "name": "Roark",
+    "name": "Tech Lead",
     "class": "TRAINER_CLASS_LEADER_ROARK",
     "items": [
         "ITEM_POTION",
@@ -55,22 +55,22 @@
         {
             "type": "TRMSG_LAST_BATTLER",
             "en_US": [
-                "Think you can take down the \n",
-                "next Pokémon like you did earlier?\n"
+                "La pipeline è ancora in piedi.\n",
+                "Vediamo l’ultimo check.\n"
             ]
         },
         {
             "type": "TRMSG_LAST_BATTLER_HALF_HP",
             "en_US": [
-                "No way! Not yet!\n",
-                "Not giving up!\n"
+                "Non faccio rollback.\n",
+                "Non ancora.\n"
             ]
         },
         {
             "type": "TRMSG_DEFEAT",
             "en_US": [
-                "W-what? That can’t be!\n",
-                "My buffed-up Pokémon!\n"
+                "Build verde.\n",
+                "Questa non me l’aspettavo.\n"
             ]
         }
     ]

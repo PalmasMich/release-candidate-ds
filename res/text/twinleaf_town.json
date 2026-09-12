@@ -63,8 +63,8 @@
     {
       "id": "TwinleafTown_Text_EveryoneGoesOnAdventures",
       "en_US": [
-        "Everyone goes off on adventures,\n",
-        "and then they gradually grow up..."
+        "Qui tutti partono con un MVP...\n",
+        "e tornano con quattordici change request."
       ]
     },
     {
@@ -86,20 +86,17 @@
     {
       "id": "TwinleafTown_Text_HelpingPutTogetherPokedex",
       "en_US": [
-        "Oh, you’re helping put together\n",
-        "a Pokédex?\r",
-        "That means you’re going to travel\n",
-        "all over the place with Pokémon!\r",
-        "That sounds like a lot of fun!\n",
-        "I’m a little envious, to be honest!"
+        "Stai raccogliendo requisiti?\r",
+        "Segnati tutto. Quello che oggi è\n",
+        "implicito domani sarà bloccante."
       ]
     },
     {
       "id": "TwinleafTown_Text_TechnologyBlowsMeAway",
       "en_US": [
-        "Technology just blows me away!\r",
-        "I mean, now you can play with people\n",
-        "around the world...wirelessly!"
+        "La tecnologia è incredibile!\r",
+        "Ora puoi rompere produzione\n",
+        "da qualunque parte del mondo."
       ]
     },
     {

@@ -4,21 +4,21 @@
     {
       "id": "RowanIntro_Text_HelloThere",
       "en_US": [
-        "Hello there!\n",
-        "It’s so very nice to meet you!\r",
-        "Welcome to the world of Pokémon!\r"
+        "Ciao!\n",
+        "Benvenuto in Release Candidate.\r",
+        "Sei stato assegnato a un progetto\n",
+        "già avviato.\r"
       ]
     },
     {
       "id": "RowanIntro_Text_MyNameRowan",
       "en_US": [
-        "My name is Rowan.\r",
-        "However, everyone just calls me\n",
-        "the Pokémon Professor.\r",
-        "Before I go any further, is this\n",
-        "your first adventure?\r",
-        "If you need advice, I’m certainly\n",
-        "capable of giving it.\r"
+        "Io coordino il delivery.\r",
+        "Qui mi chiamano il Manager.\r",
+        "I requisiti sono quasi definitivi.\n",
+        "Quasi.\r",
+        "Prima di partire, facciamo un breve\n",
+        "allineamento.\r"
       ]
     },
     {
@@ -93,9 +93,8 @@
     {
       "id": "RowanIntro_Text_AdventureInfo0",
       "en_US": [
-        "You are about to enter a world\n",
-        "where you will embark on a grand\n",
-        "adventure of your very own."
+        "Il tuo obiettivo è semplice:\n",
+        "portare il progetto in produzione."
       ]
     },
     {
@@ -111,9 +110,8 @@
     {
       "id": "RowanIntro_Text_AdventureInfo2",
       "en_US": [
-        "New paths will open to you when\n",
-        "you help people in need, overcome\n",
-        "challenges, and solve mysteries."
+        "Ogni deploy apre nuove strade.\n",
+        "Ogni change request ne chiude due."
       ]
     },
     {
@@ -188,15 +186,15 @@
     {
       "id": "RowanIntro_Text_AboutYourself",
       "en_US": [
-        "Now, why don’t you tell me\n",
-        "a little bit about yourself?\r"
+        "Prima dell’onboarding, dimmi qualcosa\n",
+        "su di te.\r"
       ]
     },
     {
       "id": "RowanIntro_Text_GenderDialogue",
       "en_US": [
-        "Are you a boy?\n",
-        "Or are you a girl?\r"
+        "Sei un ragazzo?\n",
+        "O una ragazza?\r"
       ]
     },
     {
@@ -209,7 +207,7 @@
     },
     {
       "id": "RowanIntro_Text_NameDialogue",
-      "en_US": "Tell me, what is your name?\r"
+      "en_US": "Come ti chiami?\r"
     },
     {
       "id": "RowanIntro_Text_ConfirmNameMale",
@@ -243,17 +241,12 @@
     {
       "id": "RowanIntro_Text_EndDialogue",
       "en_US": [
-        "All right, {STRVAR_1 3, 0, 0}, the time\n",
-        "has come.\r",
-        "Your very own tale of grand\n",
-        "adventure is about to unfold.\r",
-        "On your journey, you will meet\n",
-        "countless Pokémon and people.\r",
-        "I’m sure that along the way you will\n",
-        "discover many things, perhaps even\f",
-        "something about yourself.\r",
-        "Now, go on, leap into the world of\n",
-        "Pokémon!\r"
+        "Perfetto, {STRVAR_1 3, 0, 0}.\n",
+        "Il progetto è ufficialmente partito.\r",
+        "Prima tappa: Cagliari.\r",
+        "Raccogli requisiti, gestisci le\n",
+        "change request e prepara il deploy.\r",
+        "Buon lavoro. Ci vediamo in UAT.\r"
       ]
     },
     {

@@ -4,121 +4,98 @@
     {
       "id": "OreburghGym_Text_RoarkIntro",
       "en_US": [
-        "Welcome!\n",
-        "This is the Oreburgh Pokémon Gym!\r",
-        "I’m Roark, the Gym Leader!\r",
-        "I’m but one Trainer who decided to\n",
-        "walk proudly with Rock-type Pokémon!\r",
-        "As the Gym Leader, I need to see\n",
-        "your potential as a Trainer.\r",
-        "And, I’ll need to see the toughness\n",
-        "of the Pokémon that battle with you!\r"
+        "Benvenuto al Delivery Hub di Castello.\n",
+        "Io sono il Tech Lead.\r",
+        "Prima del primo deploy voglio vedere\n",
+        "se la build regge davvero.\r",
+        "In locale funziona sempre.\n",
+        "Qui conta DEV.\r"
       ]
     },
     {
       "id": "OreburghGym_Text_BeatRoark",
       "en_US": [
-        "This is embarrassing...\r",
-        "I went and lost to a Trainer who\n",
-        "didn’t have a single Gym Badge...\r",
-        "But that’s tough. You were strong,\n",
-        "and I was weak. That’s all there is.\r",
-        "According to Pokémon League rules,\n",
-        "I have to give you our Gym Badge\f",
-        "since you’ve beaten me, the Leader.\r",
-        "Here’s your official Pokémon League\n",
-        "Coal Badge.\r"
+        "Build verde. Nessun rollback.\r",
+        "Hai chiuso la prima milestone.\r",
+        "Questo significa una cosa sola:\n",
+        "primo deploy approvato.\r",
+        "Ti spetta la Medaglia MVP.\r"
       ]
     },
     {
       "id": "OreburghGym_Text_RoarkReceiveCoalBadge",
       "en_US": [
-        "{STRVAR_1 3, 0, 0} received\n",
-        "the Coal Badge from Roark!"
+        "{STRVAR_1 3, 0, 0} ha ottenuto\n",
+        "la Medaglia MVP!"
       ]
     },
     {
       "id": "OreburghGym_Text_RoarkExplainCoalBadge",
       "en_US": [
-        "Having that Coal Badge means your\n",
-        "Pokémon can now use the hidden move\f",
-        "Rock Smash outside of battle.\r",
-        "You should also take this, too.\r"
+        "Con la Medaglia MVP hai il via libera\n",
+        "per usare Spaccaroccia fuori lotta.\r",
+        "Consideralo il tuo primo permesso\n",
+        "in ambiente condiviso.\r",
+        "Prendi anche questo.\r"
       ]
     },
     {
       "id": "OreburghGym_Text_RoarkExplainStealthRock",
       "en_US": [
-        "That {STRVAR_1 8, 0, 0} contains\n",
-        "the move Stealth Rock.\r",
-        "It’s a move that inflicts damage on\n",
-        "foes that switch into battle.\r",
-        "Incidentally, a TM will teach its move\n",
-        "to a Pokémon instantly.\r",
-        "But a TM will break when you use it,\n",
-        "so make certain you want a Pokémon\f",
-        "to learn that move."
+        "Quella {STRVAR_1 8, 0, 0} contiene\n",
+        "Levitoroccia.\r",
+        "È il classico workaround che nessuno\n",
+        "vuole documentare ma tutti usano.\r",
+        "Le MT sono monouso, quindi prima di\n",
+        "applicare la fix pensa al rollback."
       ]
     },
     {
       "id": "OreburghGym_Text_RoarkGymBeaten",
       "en_US": [
-        "In this region of Sinnoh, there are\n",
-        "seven other Gym Leaders.\r",
-        "I should warn you--they’re a lot\n",
-        "tougher than I am!"
+        "VERSION 0.1.0\n",
+        "DEPLOYED TO DEV\r",
+        "Ora inizia la parte difficile:\n",
+        "farla arrivare in produzione."
       ]
     },
     {
       "id": "OreburghGym_Text_GymGuideBeforeBadge",
       "en_US": [
-        "Howdy!\n",
-        "How’s it going, Champ-to-be?\r",
-        "That’s what I said to a really\n",
-        "impatient boy earlier, too.\r",
-        "The Gym Leader is a user of\n",
-        "Rock-type Pokémon.\r",
-        "Well, listen. Rock-type Pokémon\n",
-        "really hate water, all right?\r",
-        "They’re also weak to Grass-type\n",
-        "moves.\r",
-        "Gee, they sure have weaknesses!\r",
-        "But don’t think it will be easy.\r",
-        "You don’t get to be a Gym Leader\n",
-        "without covering for weaknesses.\r",
-        "Going after a Rock-type Pokémon\n",
-        "with a Fire-type Pokémon won’t be\f",
-        "easy, either.\r",
-        "That’s all the advice I can give.\n",
-        "Thanks for listening!"
+        "Benvenuto al Delivery Hub.\r",
+        "Qui non interessa quanto fosse bella\n",
+        "la demo sul tuo portatile.\r",
+        "Devi superare i check e convincere\n",
+        "il Tech Lead che l’MVP è deployabile.\r",
+        "Acqua ed Erba aiutano parecchio contro\n",
+        "il suo team di tipo Roccia.\r",
+        "Fuoco? Si può fare.\n",
+        "Ma prepara un piano di rollback."
       ]
     },
     {
       "id": "OreburghGym_Text_GymGuideAfterBadge",
       "en_US": [
-        "Oh! {STRVAR_1 3, 0, 0}!\n",
-        "You’ve taken care of the Gym Leader!\r",
-        "So, did my advice come in handy\n",
-        "or what?\r",
-        "If my advice was useful, it’d be\n",
-        "great if you’d become my fan!"
+        "Deploy chiuso!\r",
+        "Per una volta DEV e locale sembrano\n",
+        "avere la stessa configurazione."
       ]
     },
     {
       "id": "OreburghGym_Text_GymStatueBeforeBadge",
       "en_US": [
-        "Oreburgh City Pokémon Gym\n",
-        "Leader: Roark\r",
-        "Certified Trainers:\n",
+        "CASTELLO - DELIVERY HUB\n",
+        "Tech Lead: Tech Lead\r",
+        "Build validate:\n",
         "{STRVAR_1 3, 1, 0}"
       ]
     },
     {
       "id": "OreburghGym_Text_GymStatueAfterBadge",
       "en_US": [
-        "Oreburgh City Pokémon Gym\n",
-        "Leader: Roark\r",
-        "Certified Trainers:\n",
+        "CASTELLO - DELIVERY HUB\n",
+        "Tech Lead: Tech Lead\r",
+        "Build validate:\n",
         "{STRVAR_1 3, 0, 0}\f",
         "{STRVAR_1 3, 1, 0}"
       ]

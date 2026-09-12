@@ -15,6 +15,14 @@ class CagliariTextTests(unittest.TestCase):
             ["Cagliari\n", "Prima build. Zero bug. Forse."],
         )
 
+    def test_starting_town_location_name_is_cagliari(self):
+        text_path = Path("res/text/location_names.json")
+        payload = json.loads(text_path.read_text(encoding="utf-8"))
+
+        messages = {message["id"]: message["en_US"] for message in payload["messages"]}
+
+        self.assertEqual(messages["LocationNames_Text_TwinleafTown"], "Cagliari")
+
 
 if __name__ == "__main__":
     unittest.main()

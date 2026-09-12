@@ -46,6 +46,32 @@ class CagliariOpeningTextTests(unittest.TestCase):
             ],
         )
 
+    def test_first_cagliari_npcs_have_project_parody_dialogue(self):
+        messages = load_messages("res/text/twinleaf_town.json")
+        self.assertEqual(
+            messages["TwinleafTown_Text_EveryoneGoesOnAdventures"],
+            [
+                "Qui tutti partono con un MVP...\n",
+                "e tornano con quattordici change request.",
+            ],
+        )
+        self.assertEqual(
+            messages["TwinleafTown_Text_TechnologyBlowsMeAway"],
+            [
+                "La tecnologia è incredibile!\r",
+                "Ora puoi rompere produzione\n",
+                "da qualunque parte del mondo.",
+            ],
+        )
+        self.assertEqual(
+            messages["TwinleafTown_Text_HelpingPutTogetherPokedex"],
+            [
+                "Stai raccogliendo requisiti?\r",
+                "Segnati tutto. Quello che oggi è\n",
+                "implicito domani sarà bloccante.",
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

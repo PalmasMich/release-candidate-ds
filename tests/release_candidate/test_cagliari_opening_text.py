@@ -72,6 +72,35 @@ class CagliariOpeningTextTests(unittest.TestCase):
             ],
         )
 
+    def test_marina_is_the_delivery_office(self):
+        messages = load_messages("res/text/sandgem_town.json")
+        self.assertEqual(
+            messages["SandgemTown_Text_MapSign"],
+            ["Marina\n", "Delivery Office sul mare."],
+        )
+        self.assertEqual(
+            messages["SandgemTown_Text_SignPokemonResearchLab"],
+            "Release Candidate - Delivery Office",
+        )
+        self.assertEqual(
+            messages["SandgemTown_Text_DawnThisIsItOurLab"],
+            [
+                "Eccoci alla Marina.\r",
+                "Questo è il Delivery Office.\r",
+                "Qui trasformiamo requisiti in build.\n",
+                "Almeno sulla carta.\r",
+            ],
+        )
+        self.assertEqual(
+            messages["SandgemTown_Text_LucasThisIsItOurLab"],
+            [
+                "Eccoci alla Marina.\r",
+                "Questo è il Delivery Office.\r",
+                "Qui trasformiamo requisiti in build.\n",
+                "Almeno sulla carta.\r",
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
